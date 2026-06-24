@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-safari-green: #018653;
+  --color-mpesa-pink: #D02B6D;
+  --color-kenya-red: #BB0613;
+  --color-sun-yellow: #FFB800;
+  --color-bg-cream: #FDFCF8;
+  --color-ink: #1A1A1A;
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background-color: var(--color-bg-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}

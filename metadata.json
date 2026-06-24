@@ -1,0 +1,6 @@
+{
+  "name": "Kenyan Event Ticketing Portal",
+  "description": "A modern, mobile-first ticketing platform tailored for Kenya, featuring event discovery, simulated M-Pesa STK push checkout, and downloadable QR-coded tickets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
