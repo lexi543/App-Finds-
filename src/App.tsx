@@ -12,6 +12,7 @@ import { useAuth } from './hooks/useAuth';
 import { AuthModal } from './components/AuthModal';
 import { collection, doc, setDoc, getDocs, query, where, writeBatch } from 'firebase/firestore';
 import { db } from './lib/firebase';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState<'discovery' | 'checkout' | 'ticket' | 'wallet'>('discovery');
@@ -478,6 +479,7 @@ export default function App() {
         initialTab={authModalTab}
       />
 
+      <SpeedInsights />
     </div>
   );
 }
